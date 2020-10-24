@@ -19,6 +19,13 @@ build
 .env.test.local
 .env.production.local
 
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
